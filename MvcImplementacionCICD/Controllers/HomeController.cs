@@ -20,7 +20,7 @@ namespace MvcImplementacionCICD.Controllers
             List<int> numeros = new List<int>();
             for (int i = 1; i <= 10; i++)
             {
-                int num = random.Next(1, 20);
+                int num = random.Next(1, 100);
                 numeros.Add(num);
             }
             return View(numeros);
